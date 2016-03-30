@@ -1,0 +1,24 @@
+{
+  "name": "MeanMapsApp",
+  "description": "Demo app showing the use of Google Maps in MEAN Apps",
+  "main": "server.js",
+  "authors": [
+    "Ahmed Haque"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular-route": "~1.4.6",
+    "angularjs-geolocation": "~0.1.1",
+    "modernizr": "~3.0.0"
+  }
+}
