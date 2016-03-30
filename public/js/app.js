@@ -4,12 +4,12 @@ var app = angular.module('FettyMapApp', ['addCtrl', 'queryCtrl', 'headerCtrl', '
     // Configures Angular routing -- showing the relevant view and controller when needed.
     .config(function($routeProvider){
 
-        // Join Team Control Panel
+        // Join Fetty Control Panel
         $routeProvider.when('/join', {
             controller: 'addCtrl',
             templateUrl: 'partials/addForm.html',
 
-        // Find Teammates Control Panel
+        // Find Fetty Fans Control Panel
         }).when('/find', {
             controller: 'queryCtrl',
             templateUrl: 'partials/queryForm.html',
@@ -19,6 +19,6 @@ var app = angular.module('FettyMapApp', ['addCtrl', 'queryCtrl', 'headerCtrl', '
             controller: 'loginCtrl',
             templateUrl: 'partials/loginForm.html',
 
-        // All else forward to the Join Team Control Panel
+        // All else forward to the Login Control Panel
         }).otherwise({redirectTo:'/join'})
     });
