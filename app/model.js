@@ -27,5 +27,5 @@ UserSchema.pre('save', function(next){
 // Indexes this schema in geoJSON format (critical for running proximity searches)
 UserSchema.index({location: '2dsphere'});
 
-// Exports the UserSchema for use elsewhere. Sets the MongoDB collection to be used as: "scotch-user"
-module.exports = mongoose.model('scotch-user', UserSchema);
+// Exports the UserSchema for use elsewhere. Sets the MongoDB collection to be used as: "fetty-user"
+module.exports = mongoose.model('fetty-user', UserSchema);

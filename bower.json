@@ -1,10 +1,7 @@
 {
-  "name": "MeanMapsApp",
+  "name": "FettyMapsApp",
   "description": "Demo app showing the use of Google Maps in MEAN Apps",
   "main": "server.js",
-  "authors": [
-    "Ahmed Haque"
-  ],
   "license": "MIT",
   "moduleType": [],
   "homepage": "",

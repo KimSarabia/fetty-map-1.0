@@ -4,22 +4,22 @@ module.exports = {
 
     mongolab:
     {
-        name: "scotch-user-map-ec2",
-        url: "mongodb://scotch:scotchrocks@ds051853.mongolab.com:51853/mean-map-app",
+        name: "fetty-user-map-ec2",
+        url: "mongodb://<dbuser>:<dbpassword>@ds053148.mongolab.com:53148/FettyMapApp",
         port: 27017
     },
 
     local:
     {
-        name: "scotch-user-map-local",
-        url: "mongodb://localhost/MeanMapApp",
+        name: "fetty-user-map-local",
+        url: "mongodb://localhost/FettyMapApp",
         port: 27017
     },
 
     localtest:
     {
-        name: "scotch-user-map-local",
-        url: "mongodb://localhost/MeanMapAppTest",
+        name: "fetty-user-map-local",
+        url: "mongodb://localhost/FettyMapAppTest",
         port: 27017
     }
 
