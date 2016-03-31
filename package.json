@@ -3,6 +3,14 @@
     "version": "1.0.0",
     "description": "Demo app showing the use of Google Maps in MEAN Apps",
     "main": "server.js",
+    "private":"true",
+    "scripts": {
+      "start": "server.js",
+      "postinstall": "bower install"
+    },
+    "engines":{
+      "node":"4.3.1"
+    },
     "dependencies" : {
         "express"    : "~4.7.2",
         "mongoose"   : "~4.1.0",
